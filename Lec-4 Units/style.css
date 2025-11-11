@@ -1,0 +1,18 @@
+main{
+    border: 5px solid green;
+}
+section{
+    border: 5px solid blue;
+}
+
+
+/* 
+
+% => relative to parent;
+vw => view width => to set the width of a tag;
+vh => view height => to set the height of a tag;
+
+em => size relative to parent;
+rem => size not relative to parent;
+px => size is fixed in pixels;
+ */

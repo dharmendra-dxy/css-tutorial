@@ -1,0 +1,14 @@
+h1{
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy ;
+    text-decoration-color: blueviolet;
+
+    
+}
+
+h2{
+    text-shadow: 3px 3px grey, 4px 4px grey, 5px 5px grey;
+}
+
