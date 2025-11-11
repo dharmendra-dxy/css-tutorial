@@ -1,0 +1,54 @@
+/* 
+POSITION PROPERTY:
+    1. static => default property.
+    2. absolute => relative to the HTML, element leaves form the parent container.
+    3. relative => relative to the parent and alligment is done from the current position of element.
+    4. fixed => fixed at a particular place in HTML.
+    5. sticky => sticks to the container.
+
+*/
+
+body{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.green{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blue{
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+}
+
+.spacer{
+    height: 300vh;
+    border: 2px solid red;
+}

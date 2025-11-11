@@ -1,0 +1,15 @@
+/* 
+OVERFLOW: visible, hidden, scroll, auto
+FLOAT : left,right, none, inherit
+
+
+*/
+
+
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    text-align: center;
+    overflow:auto;
+}
