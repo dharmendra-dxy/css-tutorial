@@ -1,0 +1,33 @@
+/*
+Types of selector:
+    1.Simple selector
+        a. Element selector
+        b. Id selector
+        c. Class Selector
+    2.Universal selector
+    3.Grouping selector
+    4.Nested Selector
+ */
+
+ /* UNIVERSAL SELECTOR: */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+
+ /* ID selector: */
+ #first{
+    color: red;
+ }
+
+ /* CLASS Selector: */
+ .purple{
+    color: purple;
+    font-family: cursive;
+ }
+
+ .highlight{
+    background-color: yellow;
+    font-weight: bolder;
+ }
