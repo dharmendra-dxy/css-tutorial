@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 200px;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+    /* -------applying animations:----- */
+    /*
+
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse; 
+    
+    */
+}
+
+
+/* ------ Animation : ------------- */
+
+@keyframes circle {
+    0% {
+        transform: translate(0px,0px);
+    }
+    25% {
+        transform: translate(200px,0px);
+    }
+    50%{
+        transform: translate(200px,200px);
+    }
+    75%{
+        transform: translate(0px,200px);
+    }
+}
+
+
+/* ---- Orbit Animation : ----- */
+
+.container{
+    border-radius: 50%;
+
+    animation-name: orbit;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.box{
+    border-radius: 50%;
+}
+
+@keyframes orbit {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+/* --------- Loader Animation : ---------- */
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation: loader-animation 1s ease alternate infinite;
+}
+
+.dot:nth-child(2){
+    animation-delay: 0.1s;
+}
+.dot:nth-child(3){
+    animation-delay: 0.2s;
+}
+.dot:nth-child(4){
+    animation-delay: 0.25s;
+}
+
+
+@keyframes loader-animation {
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
