@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----defining variables: ----- */
+
+:root{
+    --primary-text-color: #92d1f1;
+    --secondary-text-color : #43555d;
+    --card-background-color : #fff;
+    --background-color : #eee;
+}
+
+.dark{
+    --primary-text-color: #fff;
+    --secondary-text-color : #eee;
+    --card-background-color : #484545;
+    --background-color : #0c0b0b;
+}
+
+.container{
+    padding: 40px;
+    background-color: var(--background-color);
+    height: 100vh;
+}
+h1{
+    color: var(--primary-text-color);
+    text-align: center;
+}
+.box{
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--card-background-color);
+}
+.box h2{
+    padding: 5px;
+    margin-bottom: 20px;
+
+    /* ----using varibales : --- */
+    color: var(--primary-text-color);
+}
+
+p{
+    color: var(--secondary-text-color);
+}
+
