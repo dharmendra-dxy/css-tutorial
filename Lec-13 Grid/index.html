@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Grid</title>
+    <!-- --------STYLE : CSS------------- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        grid PARENT PROPERTY:
+            1. gap : 
+            2. grid-template-column : defines width along column => 100px, 100vw, 1fr(fraction),
+            3. grid-template-row : defines along row => 100px, 100vh, 
+            4. justify-content : align along "x-axis"
+            5. align-content : align along "y-axis"
+            6. align-item : 
+
+        grid CHILD PROPERTY:
+            1. justify-self : stretch(default), start, end, center => along "x-axis"
+            2. align-self : start, end, center => along "y-axis"
+            3. grid-column : stretching of child along column
+            4. grid-row : stretching of child along row
+            5. grid-area : "grid-area : grid-row grid-column"
+
+     -->
+
+
+     <div class="container">
+        <div class="box" id="box-1">box-1</div>
+        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-3">box-3</div>
+        <div class="box" id="box-4">box-4</div>
+        <div class="box" id="box-5">box-5</div>
+        <div class="box" id="box-6">box-6</div>
+        <div class="box" id="box-7">box-7</div>
+        <div class="box" id="box-8">box-8</div>
+        <div class="box" id="box-9">box-9</div>
+        <div class="box" id="box-10">box-10</div>
+     </div>
+    
+     <div class="container-child">
+        <div class="box-child" id="box-child-1">box-1</div>
+        <div class="box-child" id="box-child-2">box-2</div>
+        <div class="box-child" id="box-child-3">box-3</div>
+        <div class="box-child" id="box-child-4">box-4</div>
+        <div class="box-child" id="box-child-5">box-5</div>
+        <div class="box-child" id="box-child-6">box-6</div>
+        <div class="box-child" id="box-child-7">box-7</div>
+        <div class="box-child" id="box-child-8">box-8</div>
+        <div class="box-child" id="box-child-9">box-9</div>
+        <div class="box-child" id="box-child-10">box-10</div>
+     </div>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /* gap: 10px;
+    row-gap: ;
+    column-gap: ; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    border: 2px solid green;
+    margin: 10px ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+/* ---------child property :---------- */
+
+#box-1{
+    order: 1;
+    flex-grow: 1;
+}
+#box-3{
+    flex-grow: 2;
+}
+#box-4{
+    flex-shrink: 2;
+}
+#box-8{
+    flex-basis: 50px;
+}
